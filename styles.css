@@ -1,0 +1,85 @@
+body{
+   background-color:  hsl(0, 0%, 95%);
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.container{
+    margin-bottom: 30px;
+}
+.Sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    width: auto;
+    color: #fff;
+    padding: 30px 80px 0 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.SUVs{
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+    height: 500px;
+    width: auto;
+    padding: 30px 80px 0 40px;
+}
+
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+    height: 500px;
+    width: auto;
+    padding: 30px 80px 0 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.heading{
+    font-family: Lexend-Deca;
+    margin: 40px 0 60px;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+}
+.image{
+    width: 50px;
+}
+.para{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 130px;
+}
+.button1{
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%); 
+}
+.button2{
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+}
+.button3{
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%); 
+}
+.active:hover{
+    background-color: rgba(255, 0, 0, 0);
+    border: solid 3px white;
+    color: #fff;
+}
+
+
+
+.attribution { 
+     font-size: 13px; 
+     text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
